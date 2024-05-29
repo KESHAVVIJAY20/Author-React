@@ -1,0 +1,12 @@
+body{
+  background: url(assets/images/KP.jpg);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+*{
+  box-sizing: border-box;
+}
+

@@ -1,0 +1,90 @@
+.menu{
+    font-size: 1.5rem;
+}
+.section-1{
+    flex-wrap: wrap;
+    .Book-Img{
+        filter: drop-shadow(0px 0px 5px rgb(123, 165, 186));
+    }
+}
+
+@media only screen and (max-width:430px) and (max-height:932px){
+    .calendar-icon-head{
+        margin-left: -50%;
+        font-size: .8rem;
+    }
+    .sec-1-row{
+        flex-direction: column;
+        
+    }
+    .logo{
+        min-width: 80vw;
+    }
+    .menu{
+        font-size: 1rem;
+        margin-left: 5%;
+    }
+    .mail-icon-head{
+        font-size: .8rem;
+    }
+    .logo{
+        max-width: 40vw;
+    }
+    .section-1{
+        flex-direction: column;
+        .Book-Img{
+            display: flex;
+            margin: auto;
+            min-width: 50vw;
+            max-height: 50vh;
+            margin-bottom: 10%;
+        }
+    }
+    .section-2-div-1{
+        flex-direction: column;
+    }
+    .sec-2-col-2{
+        min-width: 80vw;
+        display: flex;
+        margin: auto;
+    }
+    .section-4{
+        div{
+            flex-direction: column;
+        }
+    }
+    .section-7{
+        div{
+            flex-direction: column;
+        }
+    }
+    .sec-7-h4{
+        min-width: 25%;
+    }
+    .ChunkaImgCol{
+        padding-bottom: 0%;
+        margin-bottom: -50%;
+    }
+    .ChunkaImg1{
+        max-width: 45vh;
+        max-height: 45vh;
+        position: absolute;
+    }
+    .ChunkaImg2{
+        min-width: 40vw;
+        max-height: 20vh;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 30%;
+    }
+    /* .tab-img{
+        max-width: 10vw;
+        max-height: 20vh;
+    } */
+    .footer-img{
+        max-width: 65vw;
+    }
+    .Border{
+        left: -20%;
+    }
+}

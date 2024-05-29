@@ -1,0 +1,24 @@
+
+body{
+    background: url('https://chunkamui.com/wp-content/uploads/2023/10/presenting.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* .Header-bg{
+    background-color: rgba(132, 0, 255, 0.251);
+} */
+.book-img{
+    width: 16vw;
+    height: 50vh;
+    margin-top: 10%;
+}
+@media only screen and (max-width: 430px)and (max-height:932px) {
+    .books{
+       flex-direction: column;
+       display: grid;
+       place-items: center;
+    }
+    .book-img{
+        min-width: 70vw;
+    }
+}
